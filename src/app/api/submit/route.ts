@@ -63,9 +63,12 @@ export async function POST(req: NextRequest): Promise<NextResponse<SubmitRespons
         <div style="font-family: sans-serif; max-width: 480px; margin: 0 auto; padding: 32px;">
           <h2 style="margin: 0 0 8px; font-size: 20px; color: #111;">New phone number received</h2>
           <p style="margin: 0 0 24px; color: #555;">Someone filled out the form on your website.</p>
-          <div style="background: #f5f5f5; border-radius: 10px; padding: 20px; display: flex; flex-direction: column; gap: 8px;">
-            ${contactName ? `<p style="margin: 0; font-size: 14px; color: #888;">Save as</p><p style="margin: 0; font-size: 18px; font-weight: 600; color: #111;">${contactName}</p>` : ""}
-            <p style="margin: 0; font-size: 14px; color: #888; ${contactName ? "margin-top: 12px;" : ""}">WhatsApp</p>
+          <div style="background: #f5f5f5; border-radius: 10px; padding: 20px;">
+            ${contactName ? `
+            <p style="margin: 0 0 4px; font-size: 13px; color: #888;">Save as</p>
+            <p style="margin: 0 0 20px; font-size: 18px; font-weight: 600; color: #111;">${contactName}</p>
+            ` : ""}
+            <p style="margin: 0 0 4px; font-size: 13px; color: #888;">WhatsApp</p>
             <p style="margin: 0; font-size: 22px; font-weight: 600; color: #111; letter-spacing: 0.02em;">${phone}</p>
           </div>
         </div>
