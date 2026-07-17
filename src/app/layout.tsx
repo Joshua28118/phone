@@ -8,8 +8,7 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Can I have your phone number?",
-  description: "I'd like to keep in touch.",
+  title: "Hehe",
 };
 
 export default function RootLayout({
