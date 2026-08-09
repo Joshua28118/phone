@@ -19,7 +19,7 @@ export default function Home() {
 
             <div className="flex flex-col gap-2 text-center">
               <h1 className="text-2xl sm:text-2xl font-bold tracking-tight text-white leading-snug">
-                Pindah WhatsApp Aja Ga Si?
+                Lora, Pindah WhatsApp Aja Ga Si?
               </h1>
               <p className="text-base text-white/40">hehehehehehehehe</p>
             </div>
