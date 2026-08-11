@@ -9,7 +9,7 @@ export default function Home() {
         <div className="flex flex-col gap-8">
           <div className="flex flex-col items-center gap-5">
             <Image
-              src="/jawa.jpg"
+              src="/joshu.jpg"
               alt="Cat staring intensely"
               width={140}
               height={140}
